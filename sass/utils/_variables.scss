@@ -1,0 +1,19 @@
+$colors: (
+    'base-txt-clr':#757575,
+    'title-txt-clr':#212121,
+    'accent-clr':#2196F3,
+    'bg-clr':#fff,
+    'scnd-bg-clr':#f5f4fa,
+    'bg-footer-clr':#2f303a,
+    'icon-color': #afb1b8,
+    'link-adr-color':#ffffff99
+);
+
+@function get-color($key) {
+    @return map-get($colors, $key);
+}
+
+
+
+
+

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__align">
+        <a href="/" class="logo "><span>Web</span>Studio</a>
+        <button class="menu__button js-open-menu" type="button" aria-expanded="false" aria-controls="mobile-menu">
+         <svg class="menu__icon"  width="24" height="16">
+          <use href="./images/icons.svg#icon-menu"></use>
+         </svg>
+        </button>
+        <div class="header__overlay js-menu-container" id="mobile-menu">
+          <button class="close__button js-close-menu">
+            <svg class="close__icon" width="19" height="19">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item"><a href="/" class="nav__link">Studio</a></li>
+              <li class="nav__item"><a href="./portfolio.html" class="nav__link nav__link--current">Portfolio</a></li>
+              <li class="nav__item"><a href="" class="nav__link">Contacts</a></li>
+            </ul>
+          </nav>
+          <ul class="connect__list">
+            <li class="connect__item">
+              <a href="mailto:info@devstudio.com" class="connect__link">
+                <svg class="connect__icon" widht="16" height="12">
+                  <use href="./images/icons.svg#icon-envelope"></use>
+                </svg>
+                info@devstudio.com
+              </a>
+            </li>
+            <li class="connect__item">
+              <a href="tel:+12127724150" class="connect__link">
+                <svg class="connect__icon" widht="10" height="16">
+                  <use href="./images/icons.svg#icon-smartphone"></use>
+                </svg>
+                +1 212-772-4150
+              </a>
+            </li>
+          </ul>
+          <ul class="header__sociallist">
+            <li class="header__socialitem"><a class="header__sociallink" href="">Instagram</a></li>
+            <li class="header__socialitem"><a class="header__sociallink" href="">Twitter</a></li>
+            <li class="header__socialitem"><a class="header__sociallink" href="">Facebook</a></li>
+            <li class="header__socialitem"><a class="header__sociallink" href="">LinkedIn</a></li>
+          </ul>
+        </div>
+        
+      </div>
+    </div>
+  </header>
+    <main> 
+        <!-- portfolio -->
+        <section class="section portfolio" >
+              <!-- filter -->
+           <div class="container">
+            <ul class="filter__list">
+              <li class="filter__item"><button type="button" class="button--filter">All</button></li>
+              <li class="filter__item"><button type="button" class="button--filter">Web-sites</button></li>
+              <li class="filter__item"><button type="button" class="button--filter">Apps</button></li>
+              <li class="filter__item"><button type="button" class="button--filter">Design</button></li>
+              <li class="filter__item"><button type="button" class="button--filter">Marketing</button></li>
+          </ul>
+          <ul class="portfolio__list">
+              <li class="portfolio__item">
+                  <a href="" class="portfolio__link">
+                      <div class="portfolio__thumb">
+                        <img 
+                        srcset="./images/portfolio1-450x294.jpg 450w, ./images/portfolio1-450x294@2x.jpg 900w,
+                                ./images/portfolio1-354x294.jpg 354w, ./images/portfolio1-354x294@2x.jpg 708w,
+                                ./images/portfolio1-370x294.jpg 370w, ./images/portfolio1-370x294.jpg 740w"
+                        sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 93.75vw"
+                        src="./images/portfolio1-450x294.jpg" 
+                        alt="portfolio1" 
+                        />
+                      <p class="portfolio__overlay">The resource offers comprehensive offers with different levels of functionality and services. All this will allow the visitor to obtain comprehensive information about a company or individual.</p>
+                      </div>
+                      <h2>Technoduck</h2>
+                      <p>Web-site</p>
+                  </a>
+              </li >
+              <li class="portfolio__item">
+                  <a href="" class="portfolio__link">
+                      <div class="portfolio__thumb">
+                        <img 
+                        srcset="./images/portfolio2-450x294.jpg 450w, ./images/portfolio2-450x294@2x.jpg 900w,
+                                ./images/portfolio2-354x294.jpg 354w, ./images/portfolio2-354x294@2x.jpg 708w,
+                                ./images/portfolio2-370x294.jpg 370w, ./images/portfolio2-370x294.jpg 740w"
+                        sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 93.75vw"
+                        src="./images/portfolio2-450x294.jpg" 
+                        alt="portfolio2" 
+                        />
+                        <p class="portfolio__overlay">The resource offers comprehensive offers with different levels of functionality and services. All this will allow the visitor to obtain comprehensive information about a company or individual.</p>
+                      </div>
+                      <h2>Poster New Orlean vs Golden Star</h2>
+                      <p>Design</p>
+                  </a>
+              </li>
+              <li class="portfolio__item">
+                  <a href="" class="portfolio__link">
+                      <div class="portfolio__thumb">
+                        <img 
+                        srcset="./images/portfolio3-450x294.jpg 450w, ./images/portfolio3-450x294@2x.jpg 900w,
+                                ./images/portfolio3-354x294.jpg 354w, ./images/portfolio3-354x294@2x.jpg 708w,
+                                ./images/portfolio3-370x294.jpg 370w, ./images/portfolio3-370x294.jpg 740w"
+                        sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 93.75vw"
+                        src="./images/portfolio3-450x294.jpg" 
+                        alt="portfolio3" 
+                        />
+                        <p class="portfolio__overlay">The resource offers comprehensive offers with different levels of functionality and services. All this will allow the visitor to obtain comprehensive information about a company or individual.</p>
+                      </div>
+                      <h2>Seafood Restaurant </h2>
+                      <p>Apps</p>
+                  </a>
+              </li>
+              <li class="portfolio__item">
+                  <a href="" class="portfolio__link">
+                      <div class="portfolio__thumb">
+                        <img 
+                        srcset="./images/portfolio4-450x294.jpg 450w, ./images/portfolio4-450x294@2x.jpg 900w,
+                                ./images/portfolio4-354x294.jpg 354w, ./images/portfolio4-354x294@2x.jpg 708w,
+                                ./images/portfolio4-370x294.jpg 370w, ./images/portfolio4-370x294.jpg 740w"
+                        sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 93.75vw"
+                        src="./images/portfolio4-450x294.jpg" 
+                        alt="portfolio4" 
+                        />
+                      <p class="portfolio__overlay">The resource offers comprehensive offers with different levels of functionality and services. All this will allow the visitor to obtain comprehensive information about a company or individual.</p>
+                      </div>
+                      <h2>Project Prime</h2>
+                      <p>Marketing</p>
+                  </a>
+              </li>
+              <li class="portfolio__item">
+                  <a href="" class="portfolio__link">
+                      <div class="portfolio__thumb">
+                        <img 
+                        srcset="./images/portfolio5-450x294.jpg 450w, ./images/portfolio5-450x294@2x.jpg 900w,
+                                ./images/portfolio5-354x294.jpg 354w, ./images/portfolio5-354x294@2x.jpg 708w,
+                                ./images/portfolio5-370x294.jpg 370w, ./images/portfolio5-370x294.jpg 740w"
+                        sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 93.75vw"
+                        src="./images/portfolio5-450x294.jpg" 
+                        alt="portfolio5" 
+                        />
+                      <p class="portfolio__overlay">The resource offers comprehensive offers with different levels of functionality and services. All this will allow the visitor to obtain comprehensive information about a company or individual.</p>
+                      </div>
+                      <h2>Project Boxes</h2>
+                      <p>Apps</p>
+                  </a>
+              </li>
+              <li class="portfolio__item">
+                  <a href="" class="portfolio__link">
+                      <div class="portfolio__thumb">
+                        <img 
+                        srcset="./images/portfolio6-450x294.jpg 450w, ./images/portfolio6-450x294@2x.jpg 900w,
+                                ./images/portfolio6-354x294.jpg 354w, ./images/portfolio6-354x294@2x.jpg 708w,
+                                ./images/portfolio6-370x294.jpg 370w, ./images/portfolio6-370x294.jpg 740w"
+                        sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 93.75vw"
+                        src="./images/portfolio6-450x294.jpg" 
+                        alt="portfolio6" 
+                        />
+                      <p class="portfolio__overlay">The resource offers comprehensive offers with different levels of functionality and services. All this will allow the visitor to obtain comprehensive information about a company or individual.</p>
+                      </div>
+                      <h2>Inspiration has no Borders</h2>
+                      <p>Web-site</p>
+                  </a>
+              </li>
+              <li class="portfolio__item">
+                  <a href="" class="portfolio__link">
+                      <div class="portfolio__thumb">
+                        <img 
+                        srcset="./images/portfolio7-450x294.jpg 450w, ./images/portfolio7-450x294@2x.jpg 900w,
+                                ./images/portfolio7-354x294.jpg 354w, ./images/portfolio7-354x294@2x.jpg 708w,
+                                ./images/portfolio7-370x294.jpg 370w, ./images/portfolio7-370x294.jpg 740w"
+                        sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 93.75vw"
+                        src="./images/portfolio7-450x294.jpg" 
+                        alt="portfolio7" 
+                        />
+                      <p class="portfolio__overlay">The resource offers comprehensive offers with different levels of functionality and services. All this will allow the visitor to obtain comprehensive information about a company or individual.</p>
+                      </div>
+                      <h2>Limited Edition</h2>
+                      <p>Design</p>
+                  </a>
+              </li>
+              <li class="portfolio__item">
+                  <a href="" class="portfolio__link">
+                      <div class="portfolio__thumb">
+                        <img 
+                        srcset="./images/portfolio8-450x294.jpg 450w, ./images/portfolio8-450x294@2x.jpg 900w,
+                                ./images/portfolio8-354x294.jpg 354w, ./images/portfolio8-354x294@2x.jpg 708w,
+                                ./images/portfolio8-370x294.jpg 370w, ./images/portfolio8-370x294.jpg 740w"
+                        sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 93.75vw"
+                        src="./images/portfolio8-450x294.jpg" 
+                        alt="portfolio8" 
+                        />
+                      <p class="portfolio__overlay">The resource offers comprehensive offers with different levels of functionality and services. All this will allow the visitor to obtain comprehensive information about a company or individual.</p>
+                      </div>
+                      <h2>Project LAB</h2>
+                      <p>Marketing</p>
+                  </a>
+              </li>
+              <li class="portfolio__item">
+                  <a href="" class="portfolio__link">
+                      <div class="portfolio__thumb">
+                        <img 
+                        srcset="./images/portfolio9-450x294.jpg 450w, ./images/portfolio9-450x294@2x.jpg 900w,
+                                ./images/portfolio9-354x294.jpg 354w, ./images/portfolio9-354x294@2x.jpg 708w,
+                                ./images/portfolio9-370x294.jpg 370w, ./images/portfolio9-370x294.jpg 740w"
+                        sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 93.75vw"
+                        src="./images/portfolio9-450x294.jpg" 
+                        alt="portfolio9" 
+                        />
+                      <p class="portfolio__overlay">The resource offers comprehensive offers with different levels of functionality and services. All this will allow the visitor to obtain comprehensive information about a company or individual.</p>
+                      </div>
+                      <h2>Growing Business</h2>
+                      <p>Apps</p>
+                  </a>
+              </li>
+          </ul>
+           </div>
+        </section>
+    </main>
+    <footer class="section footer">
+      <div class="container ">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="/" class="logo logo--invers"><span>Web</span>Studio</a>
+            <address>
+              <ul class="addr__list">
+                <li class="addr__item">695 Park Ave, NY 10065, USA</li>
+                <li class="addr__item"><a href="mailto:info@devstudio.com" class="addr__link">info@devstudio.com</a></li>
+                <li class="addr__item"><a href="tel:+12127724150" class="addr__link">+1 212-772-4150</a></li>
+              </ul>
+            </address>
+          </li>
+          <li class="footer__item">
+            <h3>FIND US ON</h3>
+              <ul class="social__list social__list--invers">
+                <li class="social__item social__item--invers">
+                  <a class="social__link" href="">
+                    <svg class="social__svg" width="20" height="20">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social__item social__item--invers">
+                  <a class="social__link" href="">
+                  <svg class="social__svg" width="20" height="20">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+                </li>
+                <li class="social__item social__item--invers">
+                  <a class="social__link" href="">
+                    <svg class="social__svg" width="20" height="20">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social__item social__item--invers">
+                  <a class="social__link" href="">
+                    <svg class="social__svg" width="20" height="20">
+                      <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+          </li>
+          <li class="footer__item">
+            <form class="footer__form">
+              <h3>sign up for the newsletter</h3>
+                <div class="form__wrapper">
+                  <input type="email" placeholder="E-mail">
+                <button class="button button--bottom" type="submit">
+                  sign up
+                <svg width="24" height="24">
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
+              </div>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script defer src="js/mobile-menu.js"></script>
+</body>
+</html>
